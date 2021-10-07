@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+.me a {
+    text-decoration: none;
+    color: black;
+    float: right;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+}
+a:hover {
+    background-color: white;
+    color: rgb(65, 108, 110);
+}
+span {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 35px;
+    color: red;
+    text-shadow: 1px 1px 2px rgb(65, 108, 110);
+}
+.top{
+padding: 16px 3px;
+position: fixed;
+z-index: 1;
+top: 0;
+width: 100%;
+background-color: white;
+}
+.head {
+    margin-left: auto;
+    margin-right: auto;
+}
+.main h3 {
+    text-align: center;
+    padding: 10px 7px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+.head img {
+    box-shadow: 1px 1px 2px rgb(65, 108, 110);
+}
+.menu1 {
+    width: 25%;
+    float: left;
+}
+.menu2 {
+    width: 25%;
+    float: left;
+}
+.menu3 {
+    width: 25%;
+    float: left;
+} 
+/*.menu4 {
+    width: 25%;
+    float: left;
+}*/
+.food1, .food2, .food3, .food4, .food5, .food6, .food7, .food8 {
+    box-shadow: 1px 1px 2px rgb(65, 108, 110);
+}
+.menu {
+    width: 100%;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right {
+    float: left;
+    margin-left: 100px;
+    background-color: wheat;
+    box-shadow: 1px 1px 2px rgb(65, 108, 110);
+}
+.right-menu h3 {
+    padding-left: 50px;
+}
+ul {
+    padding: 0px 25px;
+}
+.right-menu h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+hr {
+    box-shadow: 1px 1px 1px  rgb(65, 108, 110);
+}
+.about h3, h4 {
+    text-align: center;
+    font-family:sans-serif;
+}
+.about1 h3 {
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about img {
+    width: 70%;
+    margin-left: 230px;
+}
+.about {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact {
+   max-width: 1000px;
+   margin-left: auto;
+    margin-right: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contact h3 {
+    text-align: center;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact input {
+    border: none;
+    outline: none;
+    background: wheat;
+    color: rgb(65, 108, 110);
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 6px 0;
+    margin: 15px 0;
+    border-bottom: 3px solid rgb(65, 108, 110);
+}
+.contact button {
+   border: none;
+   outline: none;
+   background: none;
+   border: 2px solid rgb(65, 108, 110);
+   padding: 10px 20px;
+   font-weight: bold;
+   color:rgb(65, 108, 110)
+}
+
+
